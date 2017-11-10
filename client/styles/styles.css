@@ -1,0 +1,17 @@
+ul, a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  padding: 12px 14px;
+}
+
+.skills {
+  border: 2px solid pink;
+}
+
+.count {
+  cursor: pointer;
+}

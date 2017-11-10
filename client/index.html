@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta lang="en" charset="utf-8">
+  <title>jobSSO | Search Skill Occurrences</title>
+  <link rel="stylesheet" src="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+  <div class="main container-fluid text-center">
+    <h1>Frontend Required Skills</h1>
+    <input id="skill" class="form-group" type="text" data="skill" required>
+    <button id="addSkill">Add</button>
+    <div class="skills row">
+      <div class="col-xs-6">
+        <p>Skill Name</p>
+        <ul class="skill"></ul>
+      </div>
+      <div class="col-xs-6">
+        <p>Occurred</p>
+        <ul class="count"></ul>
+      </div>
+      <div class="col-xs-6"></div>
+    </div>
+    <button id="save">Save List</button>
+  </div>
+</body>
+<!-- libraries -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+
+<!-- scripts -->
+<script src="app/dummyData.js"></script>
+</html>
